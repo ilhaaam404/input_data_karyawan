@@ -1,0 +1,117 @@
+*{
+    padding: 0; margin: 0;
+	
+}
+h2{
+	color:#50626C;
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	border: 3px solid #f1f1f1;
+	padding: 5px;
+	width: 490px;
+	margin: auto;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+//body{
+	background: url('image/web-background.png');
+	background-size: 1380px 720px;
+	color: #fff;
+}
+div.polaroid {
+  width: 504px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.container {
+  padding: 10px;
+}
+form {
+    border: 3px solid #f1f1f1;
+    font-family: arial;
+    width: 500px;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+	color:#50626C;
+	text-transform: uppercase;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f03434;
+}
+.logocontainer{
+	text-align: right;
+	margin: 20px 20px 10px 20px;
+	width: wrap;
+}
+img.logo{
+	width: 20%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+img.avatar {
+    width: 50%;
+	border-radius: 50%;
+}
+.container {
+    padding: 16px;
+	background-color:
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+span{
+	color:#50626C;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
